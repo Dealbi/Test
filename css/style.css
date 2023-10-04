@@ -1,4 +1,17 @@
-
 nav ul li {
     display: inline-block;
+}
+
+#homeimg {
+    height: 600px;
+    width: auto;
+}
+
+header {
+    background-color:aqua;
+    color:white;
+}
+
+.whitelink {
+    color:white;
 }
