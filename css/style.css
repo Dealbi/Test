@@ -1,25 +1,29 @@
 body {
-    margin:0px;
+    margin: 0px;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+h1, h2 {
+    font-weight: 600;
+    text-align: center;
 }
 
 nav ul li {
-    display: inline-block;
+    display: inline-block ;
 }
 
 #homeimg {
-    height: 600px;
+    height: 300px;
     width: auto;
 }
 
 header {
-    background-color:aqua;
-    color:white;
+    background-color:#fbc859;
+    color: white; 
 }
 
 .whitelink {
-    color:white;
-}
-
-header, section {
-    padding: 5%;
+    color: white;
 }
