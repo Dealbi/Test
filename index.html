@@ -7,14 +7,21 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/897d37c833.js" crossorigin="anonymous"></script>
+		<!-- -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- -->
+		<script src="https://kit.fontawesome.com/897d37c833.js" crossorigin="anonymous"></script>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     </head>
     <body>
         <header>
-            <h1>YOUR CHILDHOOD SOUNDTRACK</h1>
+			
+            <h1>
+				<img src="imgs/logo.png" alt="Logo" width="100" height="100" style="vertical-align: sub;position: relative; left:-400px;top:10px;">
+				YOUR CHILDHOOD SOUNDTRACK
+			</h1>
             <nav> 
-            <ul>
+            <ul class="Menu">
                 <li> <a class="active nounderline" href="index.html">homepage</a></li>
                 <li> <a class="whitelink nounderline" href="cinema.html">cinema</a></li>
                 <li> <a class="whitelink nounderline" href="disneycartoons.html">disneycartoons</a></li>
@@ -23,18 +30,50 @@
             </ul>    
             </nav>        
         </header>
-        <section>
-            <h2>Benvenuti su Your Childhood Soundtrack!</h2>
-            <section>
-                <img id="homeimg" src="imgs/film.jpg"> 
-                <img id="homeimg" src="imgs/cartoons.jpg">
-                <img id="homeimg" src="imgs/personaggi.jpg">
-            </section>
-            <p> Rivivi tutti i momenti della tua infanzia semplicemente ascoltando alcune di queste playlist!</p>
-            <p> Giusto un paio di click e potrai riavere qualche minuto del tuo passato.</p>
-            <p> Questo sito è stato creato da <a href="http://example.org">Daniele Dealbi e Alessandra Barua</a>.</p>  
-            <i class="fa-brands fa-instagram"></i> 
-            <i class="fa-brands fa-spotify"></i>   
-        </section>
+		<div class="Trasparente">
+		</div>
+		<div class="Trasparente">
+			<div class="Intro">
+		            <h2>Benvenuti su Your Childhood Soundtrack!</h2>
+		            <p> Rivivi tutti i momenti della tua infanzia semplicemente ascoltando alcune di queste playlist!</p>
+					<p> Giusto un paio di click e potrai riavere qualche minuto del tuo passato.</p>
+			</div>
+		</div>
+        <div class="Home">
+			<div class="gridNav-container">
+				<div class="gridNav-item">
+					<a class="whitelink nounderline" href="cinema.html"><img src="imgs/cinema.svg" alt="cinema" width="50" height="50" style="vertical-align:text-top;"></a>
+					<br>
+					<a class="whitelink nounderline" href="cinema.html">cinema</a>
+				</div>
+				<div class="gridNav-item">
+					<a class="whitelink nounderline" href="disneycartoons.html"><img src="imgs/disney.png" alt="disney" width="50" height="50" style="vertical-align:text-top;"></a>
+					<br>
+					<a class="whitelink nounderline" href="disneycartoons.html">disneycartoons</a>
+				</div>
+				<div class="gridNav-item">
+					<a class="whitelink nounderline" href="videogames.html"><img src="imgs/videogames.png" alt="videogames" width="50" height="50" style="vertical-align:text-top;"></a>
+					<br>
+					<a class="whitelink nounderline" href="videogames.html">videogames</a>
+				</div>  
+			</div>
+        </div>
+		<!-- ---------------- -->
+		
+     <footer class="bottom">
+        <p> Contatti: </p>
+        <p> <i class="fa-brands fa-instagram"> </i> <a class="instagram" href="https://www.instagram.com/you.rsound/"> Instagram </a> </p>
+        <p> <i class="fa-brands fa-spotify"></i> <a class="spotify" href="https://open.spotify.com/user/31izbo2ex3i3yj6v7tvwizqzncti?si=b177115ec9084b2a"> Spotify </a> </p>
+       <br/>
+       <section>
+	   <a class="footer" href="index.html">HOMEPAGE │</a>
+       <a class="footer" href="playlist.html">CINEMA │</a>
+       <a class="footer" href="https://fqo4661mwvs.typeform.com/to/xOdIOW5K">DISNEY │</a>
+       <a class="footer" href="merce.html">VIDEOGAMES │</a>
+       <a class="footer" href="about.html">ABOUT │</a>
+       <a class="footer" href="documentazione.html">DOCUMENTAZIONE</a></p>
+       </section>
+	   <p> Questo sito è stato creato da <a href="http://example.org">Daniele Dealbi e Alessandra Barua</a>.</p> 	 
+    </footer>
     </body>
 </html>
