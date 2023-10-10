@@ -3,12 +3,30 @@ body {
     font-family: "Merriweather" , sans-serif !important;
     font-weight: 600 !important;
     text-align: center;
-	background-image: url(../imgs/gatto.jpg);
-	background-size: cover;
-	background-attachment: fixed;
 	
 }
-
+.home{
+	background-image: url(../imgs/sfondo3.jpg);
+	background-size: cover;
+	background-attachment: fixed;}
+.cinema{
+	background-image: url(../imgs/cinemasfondo.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.disney{
+	background-image: url(../imgs/disneysfondo.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.videogiochi{
+	background-image: url(../imgs/videogiochisfondo.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.about{
+	background-color:#f6a323;
+}
 h1, h2 {
     font-weight: 600;
     text-align: center;
@@ -24,7 +42,7 @@ nav ul li {
 }
 
 header {
-    background-color:#fbc859;
+    background-color:#f6a323;
     color: rgb(0, 0, 0);
 	position: sticky;
 	top:0;
@@ -57,7 +75,14 @@ div.Trasparente{
 	height: 350px;
 	text-align:center;
 	background-position: center;
-	background-image: url(../Immagini/Logo1.png);
+	background-image: url(../Immagini/sfondo.jpg);
+	background-repeat: no-repeat;}
+	
+	div.TrasparenteAbout{
+	height: 100px;
+	text-align:center;
+	background-position: center;
+	background-image: url(../Immagini/sfondo.jpg);
 	background-repeat: no-repeat;}
 ul.Menu{
 	padding-left: 10%;
@@ -77,18 +102,22 @@ nav{
   padding: 20px;
   font-size: 30px;
   text-align: center;
-  border: 1px solid #fbc859;
+  border: 1px solid #f6a323;
 }
 .Intro{
-	text-align:center;
-	color:black;
-		 vertical-align: middle;
+		text-align:center;
+	transform-origin:bottom;
+	border-radius:20px 20px 20px 20px;
+	background-clip: content-box;
+	background-color: #f6a323;
+	 vertical-align: middle;
 	   position:relative;
   top:calc(50% - 130px/2);
+	
 }
 .Linea{
 	text-align:center;
-		background-color: #fbc859;
+		background-color: #f6a323;
 }
 .Linea-Alt{
 	text-align:center;
@@ -112,7 +141,6 @@ nav{
 	background-color: white;
   text-align: center;
   padding: 20px 0;
-  font-size: 30px;
 
   	
 }
@@ -120,10 +148,11 @@ nav{
 	transform-origin:bottom;
 	border-radius:20px 20px 20px 20px;
 	background-clip: content-box;
-	background-color: #fbc859;
+	background-color: #f6a323;
 	 vertical-align: middle;
 	   position:relative;
   top:calc(50% - 130px/2);
+  width:300px
 }
 #carousel-item-Alt{
 	background-color: white;
@@ -133,21 +162,21 @@ nav{
     display: inline-grid;
     grid-template-columns: auto auto;
     grid-gap: 5px;
-	background-color: #fbc859;
+	background-color: #f6a323;
 	
 }
 .grid-childS{
 	padding-top:5%;
 	text-align:center;
-	background-color:#fbc859;
+	background-color:#f6a323;
 	max-width: 300px;
 }
 
 .grid-childT{
-	background-color: #fbc859;
+	background-color: #f6a323;
   text-align: center;
   padding: 20px 0;
-  font-size: 30px;
+
 
   	
 }
@@ -159,9 +188,11 @@ nav{
 	 vertical-align: middle;
 	   position:relative;
   top:calc(50% - 130px/2);
+  width:300px
 }
+
 .carousel-item{
-	background-color: #fbc859
+	background-color: #f6a323
 }
 .bottom{
 	background: gray;
@@ -169,6 +200,9 @@ nav{
   text-align: center;
   color: white;
   
+}
+.link{
+	color:#f6a323;
 }
 .bottom-info{
 	padding-top: 2%;
@@ -184,7 +218,7 @@ nav{
 	transform-origin:bottom;
 	border-radius:20px 20px 20px 20px;
 	background-clip: content-box;
-	background-color: white;
+	background-color: #f6a323;
 	 vertical-align: middle;
 	   position:relative;
   top:calc(50% - 130px/2);
@@ -201,4 +235,21 @@ nav{
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+}
+.Divider{
+	transform-origin:bottom;
+	border-radius:20px 20px 20px 20px;
+	background-clip: content-box;
+	background-color: white;
+	   position:relative;
+  top:calc(50% - 130px/2);
+	
+}
+.SectionTitle{
+	color:#e98416;
+	text-align: justify;
+}
+.pardoc {
+  text-align: justify;
+  line-height: 2em;
 }
